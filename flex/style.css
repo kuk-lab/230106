@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #f6f6f6;
+}
+
+.profile-card {
+  display: flex;
+  gap: 20px;
+  width: 656px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.profile-img-wrapper {
+  width: 120px;
+  height: 120px;
+  border-radius: 4px;
+}
+
+.profile-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.content-top strong {
+  font-size: 24px;
+  line-height: 1.1666;
+  letter-spacing: 0em;
+  font-weight: 700;
+}
+
+.content-top p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.content-interest-datalist {
+  padding-top: 16px;
+}
+
+.interest-title {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.interest-list {
+  display: flex;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+.interest-item {
+  padding: 8px;
+  border-radius: 12px;
+  background-color: #f4f4f4;
+  color: #555;
+}
